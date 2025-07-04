@@ -21,7 +21,11 @@ print(valor_1 != valor_3)
 
 numero_01 = int(input("insira um número inteiro: "))
 numero_02 = int(input("insira outro número inteiro: "))
+numero_03 = int(input("insira mais um número inteiro: "))
 
-resultado = numero_01 // numero_02
+
+
+resultado = numero_01 // numero_02 + numero_03
 
 print(resultado)
+
